@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: stretch;
+  background-color: #131213;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  background-color: #1a171d;
+}
+
+.create-task {
+  font-size: 28px;
+  color: #f3aa4e;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 80%;
+  align-self: left;
+  margin-bottom: 20px;
+}
+
+.input-el {
+  width: 80%;
+  color: #64748b;
+  font-weight: 500;
+  padding: 8px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.select-el {
+  width: 80%;
+  font-weight: 500;
+  color: #000000;
+  padding: 5px;
+  font-size: 18px;
+  background-color: #f1f5f9;
+}
+
+.option {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 80%;
+  align-self: left;
+}
+
+.submit-button {
+  font-size: 15px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: 0px;
+  padding: 8px;
+  background-color: #f3aa4e;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 20%;
+  cursor: pointer;
+}
+
+.inner-second-container {
+  width: 60vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.tag-heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.unordered-list {
+  list-style-type: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.unordered-list-tags {
+  list-style-type: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.no-items {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align : center;
+  margin-top : 50px;
+}
